@@ -12,6 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-google \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.error.receiver.system.apps=com.google.android.feedback \
+    ro.media.enc.jpeg.quality=100 \
     ro.setupwizard.enterprise_mode=1
 
 # T-mobile heme engine 
@@ -26,7 +27,6 @@ PRODUCT_PACKAGES += \
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
-    vendor/evolution/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
     vendor/evolution/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/evolution/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/evolution/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
