@@ -13,6 +13,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.media.enc.jpeg.quality=100 \
+    windowsmgr.max_events_per_sec=240 \
     ro.setupwizard.enterprise_mode=1
 
 # T-mobile heme engine 
