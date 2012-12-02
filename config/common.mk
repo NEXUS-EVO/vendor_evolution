@@ -22,8 +22,7 @@ include vendor/evolution/config/themes_common.mk
 # Common packages 
 PRODUCT_PACKAGES += \
     CMFileManager \
-    Trebuchet \
-    SpareParts 
+    Trebuchet 
     
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
