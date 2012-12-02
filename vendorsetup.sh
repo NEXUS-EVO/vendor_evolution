@@ -1,0 +1,3 @@
+add_lunch_combo evolution_toro-userdebug
+add_lunch_combo evolution_maguro-user
+add_lunch_combo evolution_maguro-userdebug
