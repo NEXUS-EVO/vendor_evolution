@@ -21,8 +21,10 @@ include vendor/evolution/config/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
-    CMFileManager \
-    Trebuchet 
+    CMFileManager
+
+PRODUCT_COPY_FILES += \
+    vendor/evolution/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
     
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
