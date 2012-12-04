@@ -29,9 +29,8 @@ PRODUCT_COPY_FILES += \
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
-    vendor/evolution/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/evolution/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/evolution/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
+    vendor/evolution/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/evolution/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
     vendor/evolution/proprietary/common/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/evolution/proprietary/common/app/GoogleEars.apk:system/app/GoogleEars.apk \
@@ -46,6 +45,7 @@ PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/evolution/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/evolution/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
+    vendor/evolution/proprietary/common/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
     vendor/evolution/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
     vendor/evolution/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/evolution/proprietary/common/app/Street.apk:system/app/Street.apk \
