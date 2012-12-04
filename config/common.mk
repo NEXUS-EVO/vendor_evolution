@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
     vendor/evolution/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
     vendor/evolution/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
-    vendor/evolution/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/evolution/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
     vendor/evolution/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
     vendor/evolution/proprietary/common/lib/libgtalk_jni.so:system/lib/libgtalk_jni.so \
