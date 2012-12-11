@@ -21,7 +21,8 @@ include vendor/evolution/config/themes_common.mk
 
 # Common packages 
 PRODUCT_PACKAGES += \
-    CMFileManager
+    CMFileManager \
+    Torch
 
 PRODUCT_COPY_FILES += \
     vendor/evolution/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
@@ -29,9 +30,12 @@ PRODUCT_COPY_FILES += \
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
+    vendor/evolution/proprietary/common/app/ChromeBookmarksSyncAdapter.apk:system/app/ChromeBookmarksSyncAdapter.apk \
+    vendor/evolution/proprietary/common/app/GalleryGoogle.apk:system/app/GalleryGoogle.apk \
     vendor/evolution/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
     vendor/evolution/proprietary/common/app/Gmail2.apk:system/app/Gmail2.apk \
     vendor/evolution/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+    vendor/evolution/proprietary/common/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/evolution/proprietary/common/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/evolution/proprietary/common/app/GoogleEars.apk:system/app/GoogleEars.apk \
     vendor/evolution/proprietary/common/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
@@ -42,15 +46,15 @@ PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
     vendor/evolution/proprietary/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/evolution/proprietary/common/app/MediaUploader.apk:system/app/MediaUploader.apk \
-    vendor/evolution/proprietary/common/app/Music.apk:system/app/Music.apk \
     vendor/evolution/proprietary/common/app/NetworkLocation.apk:system/app/NetworkLocation.apk \
     vendor/evolution/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/evolution/proprietary/common/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
     vendor/evolution/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
+    vendor/evolution/proprietary/common/app/RingsExtended.apk:system/app/RingsExtended.apk \
     vendor/evolution/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/evolution/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/evolution/proprietary/common/app/Talk.apk:system/app/Talk.apk \
-    vendor/evolution/proprietary/common/app/talkback.apk:system/app/talkback.apk \
+    vendor/evolution/proprietary/common/app/Talkback.apk:system/app/Talkback.apk \
     vendor/evolution/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
     vendor/evolution/proprietary/common/app/VoiceSearchStub.apk:system/app/VoiceSearchStub.apk \
     vendor/evolution/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
@@ -76,12 +80,11 @@ PRODUCT_COPY_FILES += \
 # Common Applications
 PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/evolution/proprietary/common/app/QuickSettingsControlPanel.apk:system/app/QuickSettingsControlPanel.apk 
-    
+
 # Common Keyboard w/ Gestures
 PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-    vendor/evolution/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so     
+    vendor/evolution/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
 
 # Common Binary files
 PRODUCT_COPY_FILES += \
