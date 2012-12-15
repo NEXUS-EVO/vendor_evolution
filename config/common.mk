@@ -5,6 +5,7 @@ PRODUCT_DEVICE := generic
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/evolution/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/evolution/overlay/dictionaries
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
@@ -22,10 +23,9 @@ include vendor/evolution/config/themes_common.mk
 # Common packages 
 PRODUCT_PACKAGES += \
     CMFileManager \
+    NovaLauncher \
+    LatinIME \
     Torch
-
-PRODUCT_COPY_FILES += \
-    vendor/evolution/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk
     
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
@@ -75,16 +75,12 @@ PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/lib/libttscompat.so:system/lib/libttscompat.so \
     vendor/evolution/proprietary/common/lib/libttspico.so:system/lib/libttspico.so \
     vendor/evolution/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
+    vendor/evolution/proprietary/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
     vendor/evolution/proprietary/common/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so 
 
 # Common Applications
 PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-
-# Common Keyboard w/ Gestures
-PRODUCT_COPY_FILES += \
-    vendor/evolution/proprietary/common/app/LatinImeGoogle.apk:system/app/LatinImeGoogle.apk \
-    vendor/evolution/proprietary/common/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so 
 
 # Common Binary files
 PRODUCT_COPY_FILES += \
