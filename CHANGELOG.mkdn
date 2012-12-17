@@ -1,0 +1,36 @@
+NEXUS EVOLUTION	
+===============
+
+Visit http://github.com/NEXUS-EVOLUTION for full changelogs and git access.
+
+CHANGELOG (notable new features)
+---------
+
+### 2.1.2
+* Common: Android 4.1.2 (Google)
+
+* Custom kernel thanks to Tiny 2.3.1
+* Based off of aosp with some aokp and cyanogenmods, made to be light and lean from the best!
+* Clock and battery mods from (AOKP)
+* Nav Bar options from AOKP)
+* Changelog from (CYANOGEN)	
+* Locscreen slider, vibrate, and such (CYANOGENMOD)
+* Hardkeys CYANOGENMOD)
+* Notification light settings (CYANOGENMOD)
+* Custom carrier label (AOKP)
+* Toggles (AOKP) style
+* Power menu, reboot menu, screenshot, profile switcher, airplane mode, sound panel, and show navigation. CYANOGENMOD) and AOKP)
+* Profiles and Quiet hours (CYANOGENMOD)
+* Volume wake (CYANOGENMOD)
+* Delay lockscreen lock (CYANOGENMOD)
+* Custom hardkeys on and off the lockscreen (CYANOGENMOD)
+* Nova as default launcher
+* Various amounts of bloatware removed
+* Clean up on ringtones
+* Custom theme
+* Contacts are inverted thanks to (Michael Gunther)
+* More mods will come in time with more releases with clean up!
+* Tons and Tons of more stuff included i have missed due to lack of time right now, lots of bug fixes have been included thanks to cyanogen and there open source!!!!
+* ENJOY!
+
+

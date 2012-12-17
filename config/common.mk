@@ -26,6 +26,10 @@ PRODUCT_PACKAGES += \
     NovaLauncher \
     LatinIME \
     Torch
+
+# Copy over the changelog to the device
+PRODUCT_COPY_FILES += \
+    vendor/evolution/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
     
 # Common Google Applications and libs
 PRODUCT_COPY_FILES += \
