@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/evolution/proprietary/common/app/OneTimeInitializer.apk:system/app/OneTimeInitializer.apk \
     vendor/evolution/proprietary/common/app/PartnerBookmarksProvider.apk:system/app/PartnerBookmarksProvider.apk \
     vendor/evolution/proprietary/common/app/Phonesky.apk:system/app/Phonesky.apk \
-    vendor/evolution/proprietary/common/app/RingsExtended.apk:system/app/RingsExtended.apk \
     vendor/evolution/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk \
     vendor/evolution/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/evolution/proprietary/common/app/Talk.apk:system/app/Talk.apk \

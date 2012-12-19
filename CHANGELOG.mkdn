@@ -7,7 +7,7 @@ CHANGELOG (notable new features)
 ---------
 
 ### 2.1.2
-* Common: Android 4.1.2 (Google)
+* Common: Android 4.2.1 (Google)
 
 * Custom kernel thanks to Tiny 2.3.1
 * Based off of aosp with some aokp and cyanogenmods, made to be light and lean from the best!
@@ -25,6 +25,7 @@ CHANGELOG (notable new features)
 * Delay lockscreen lock (CYANOGENMOD)
 * Custom hardkeys on and off the lockscreen (CYANOGENMOD)
 * Nova as default launcher
+* Lockscreen text color (AOKP)
 * Various amounts of bloatware removed
 * Clean up on ringtones
 * Custom theme
@@ -32,5 +33,11 @@ CHANGELOG (notable new features)
 * More mods will come in time with more releases with clean up!
 * Tons and Tons of more stuff included i have missed due to lack of time right now, lots of bug fixes have been included thanks to cyanogen and there open source!!!!
 * ENJOY!
+
+
+### 3.0.0
+
+* Fixed name text drop down font color in mms
+* Fixed search in nav bar
 
 
