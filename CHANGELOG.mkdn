@@ -35,9 +35,18 @@ CHANGELOG (notable new features)
 * ENJOY!
 
 
-### 3.0.0
+### 2.2.0
 
 * Fixed name text drop down font color in mms
 * Fixed search in nav bar
-
-
+* Fix contacts landscape and menu pop up, and date picker
+* Allow full theming of contacts with theme chooser (kwes1020)
+* Fix inconsistent recents button behavior (Roman)
+* Fix long pressing notifications (Roman)
+* Add the ability to mark a message as read from the notification (Cyanogen)
+* Clear all" button on recent apps (Cyanogen)
+* Add build prop modifier (JBird)
+* Add CM cirle batter
+* Center clock on lockscreen, HUGE THANKS TO MICHAEL GUNTHER FOR THIS. Was bugging me being set to the right!!!
+* Took Michael's centered clock and changed clock font to bold
+* Added statusbar brightness control (Cyanogen & Me)
